@@ -3,3 +3,59 @@ body {
   height: 100%;
   margin: 0;
 }
+
+h1 {
+  text-align: center;
+}
+
+img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width:900px;
+}
+
+nav {
+  display: block;
+  margin:auto;
+  text-align: center;
+  width: 50%; 
+  font-size: medium;
+
+}
+
+nav a {
+    background-color: gray;
+    padding: 10px;
+    padding-top: 0;
+    padding-bottom: 0;
+}
+
+figcaption {
+  font-size: medium;
+  text-align: center;
+}
+
+section#featured-property p {
+  width: 800px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  font-size:medium;
+  text-align:center;
+
+  
+}
+
+
+section#details div {
+
+  
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  float: left;
+  background-color: red;
+  text-align: center;
+  width: 25%;
+}
